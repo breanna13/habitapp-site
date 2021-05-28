@@ -49,6 +49,12 @@
   }
 }
 
+.embed-responsive {
+  width:200%;
+  height: 200%;
+}
+
+
 body {
   margin: 2em;
   font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -4272,6 +4278,19 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+
+.card1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
